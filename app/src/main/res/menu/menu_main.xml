@@ -5,6 +5,14 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="string/acerca_de"
+        android:onClick="clickAcercaDe"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/instrucciones"
+        android:orderInCategory="100"
+        android:title="string/instrucciones"
+        android:onClick="clickFormula"
         app:showAsAction="never" />
 </menu>
